@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pay4free.in.quickbook.AfterBooked">
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+android:id="@+id/rupees"
+                android:src="@drawable/icon"
+                android:layout_marginLeft="93dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="60dp" />
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="60dp"
+                android:textSize="25dp"
+                android:text="450.60"
+                android:id="@+id/amount"
+                android:layout_alignBottom="@+id/rupees"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBaseline="@+id/rupees"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/paid"
+            android:layout_below="@+id/amount"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Paid SuccessFully "/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/paid"
+                android:layout_width="match_parent"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/id"
+                    android:text="TransactionId "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/tranaction"
+                    android:text="171000111"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/next"
+                android:layout_alignParentBottom="true"
+
+                android:background="@drawable/button"
+                android:layout_marginTop="5dp"
+                android:text="Continue" />
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

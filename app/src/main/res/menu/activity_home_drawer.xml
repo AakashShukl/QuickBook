@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_car"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Offline Booking" />
+        <item
+            android:id="@+id/nav_bike"
+            android:icon="@drawable/ic_directions_bike_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Need at your doorstep?" />
+
+        <item
+            android:id="@+id/nav_Policy"
+            android:icon="@drawable/ic_style_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_phone_in_talk_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Help and Support" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_phone_in_talk_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="LogOut" />
+
+    </group>
+
+
+
+</menu>

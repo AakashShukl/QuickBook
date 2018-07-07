@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QwikBook</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    formatted_place_data
+    <string name="title_activity_online_payment">Redirecting.....Please Wait</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_vehicle_list">VehicleList</string>
+    <string name="formatted_place_data">
+        PLACE</string>
+</resources>

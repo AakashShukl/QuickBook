@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "519835204305",
+    "firebase_url": "https://quick-a0f27.firebaseio.com",
+    "project_id": "quick-a0f27",
+    "storage_bucket": "quick-a0f27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519835204305:android:d5bc4a7d08e4727a",
+        "android_client_info": {
+          "package_name": "pay4free.in.quickbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519835204305-18jb7rrr3smd9bbtjue9pr8ej3gf9d2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pay4free.in.quickbook",
+            "certificate_hash": "a1c1a5c3ecfa713dfe06c61fcb7aa15aa7543c2f"
+          }
+        },
+        {
+          "client_id": "519835204305-heobvukjndvvh7sjbnim67lu2bge6u55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pay4free.in.quickbook",
+            "certificate_hash": "f14aef934b36c782310e238ee34a419eee0ccd33"
+          }
+        },
+        {
+          "client_id": "519835204305-e8002unfn53tbh98nikbe72irdkg4d8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByrZMHHfcXIuoDN5k0HjyjTvxRKSgEkQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519835204305-e8002unfn53tbh98nikbe72irdkg4d8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

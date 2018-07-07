@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relative"
+            android:layout_height="match_parent">
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:src="@drawable/ladakh"
+                android:scaleType="centerCrop"
+                android:layout_height="300dp">
+
+
+
+
+            </ImageView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/button"
+                android:id="@+id/findvehicle"
+                android:text="Find Vehicle"
+                android:layout_marginStart="30dp"
+                android:layout_marginBottom="47dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/editdate" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:id="@+id/edtdest"
+                android:padding="10dp"
+
+                android:background="#fffff1"
+                android:hint="Select Your starting Point"
+                android:textStyle="bold"
+                android:textColorHint="#000000"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:focusableInTouchMode="true"
+                android:inputType="text"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="43dp"
+
+                android:layout_below="@+id/section_label"
+                android:layout_alignLeft="@+id/editdate"
+                android:layout_alignStart="@+id/editdate"
+                android:layout_marginStart="43dp" />
+            <TextView
+                android:id="@+id/section_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_height="35dp"
+                android:id="@+id/editdate"
+                android:background="#fffffa"
+                android:hint="PickUp Time"
+                android:editable="false"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColorHint="#000000"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:focusableInTouchMode="true"
+                android:layout_marginLeft="10dp"
+                android:inputType="text"
+
+
+                 />
+
+            <TextView
+                android:id="@+id/editdrop"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="25dp"
+                android:padding="10dp"
+                android:layout_height="35dp"
+android:textSize="12sp"
+                android:editable="false"
+                android:textStyle="bold"
+                android:textColorHint="#000000"
+                android:background="#fffffa"
+                android:inputType="textPersonName"
+                android:hint="DropOff Time"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/editdate" />
+        </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+
+    android:layout_below="@+id/relative"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/offers"
+
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
